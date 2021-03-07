@@ -1,4 +1,14 @@
-const id = "123";
-const url = `https://api.book/${id}`
+const listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 10]
+let listOfEvenNumbers : Array<number> = []
 
-console.log(url)
+for (let i of listOfNumbers) {
+  if (i % 2 === 0) {
+    listOfEvenNumbers.push(i)
+  }
+}
+
+console.log(listOfEvenNumbers)
+
+// Rewritten with Lambda-Expression
+
+console.log(listOfNumbers.filter( i => i % 2 === 0))
