@@ -1,4 +1,4 @@
-#  Constructor
+#  Inheritance
 ## Where is the mistake?
 
 ```typescript
