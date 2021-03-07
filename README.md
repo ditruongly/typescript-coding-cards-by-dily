@@ -1,18 +1,11 @@
-#  Inheritance
-## Where is the mistake?
-
-```typescript
-interface Human {
-  name: string;
-  age: number;
-}
-
-class Person implements Human {
-}
-```
+#  Template-Strings
+## Give an example for Template-Strings
 
 <details>
 <summary>Solution</summary>
 
-Class 'Person' incorrectly implements interface 'Human'. Type 'Person' is missing  properties from type 'Human'.
+```typescript
+const id = "123";
+const url = `https://api.book/${id}`
+```
 </details>

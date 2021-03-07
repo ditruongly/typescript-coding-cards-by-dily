@@ -1,8 +1,4 @@
-interface Human {
-  name: string;
-  age: number;
-}
+const id = "123";
+const url = `https://api.book/${id}`
 
-class Person implements Human {
-  
-}
+console.log(url)
