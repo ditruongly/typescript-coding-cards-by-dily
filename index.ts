@@ -1,4 +1,7 @@
-class Person {
-  constructor(name: string, age: number) {}
-  constructor(name: string) {}
+interface Human {
+  name: string;
+  age: number;
+}
+
+class Person implements Human {
 }

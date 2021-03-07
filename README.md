@@ -2,14 +2,17 @@
 ## Where is the mistake?
 
 ```typescript
-class Person {
-  constructor(name: string, age: number) {}
-  constructor(name: string) {}
+interface Human {
+  name: string;
+  age: number;
+}
+
+class Person implements Human {
 }
 ```
 
 <details>
 <summary>Solution</summary>
 
-Multiple constructor implementations are not allowed.
+Class 'Person' incorrectly implements interface 'Human'. Type 'Person' is missing  properties from type 'Human'.
 </details>
