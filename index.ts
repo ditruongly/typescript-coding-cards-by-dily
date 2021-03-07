@@ -4,4 +4,5 @@ interface Human {
 }
 
 class Person implements Human {
+  
 }
