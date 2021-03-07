@@ -1,3 +1,31 @@
-# typescript-coding-cards-by-dily
+# Interface
+## Where is the mistake?
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-coding-cards-by-dily)
+```typescript
+interface Person {
+  name: string;
+  age: number;
+}
+
+const p: Person = {
+  name: "Di",
+  age: 45,
+  sex: "male"
+}
+```
+
+<details>
+<summary>Solution</summary>
+
+```typescript
+interface Person {
+  name: string;
+  age: number;
+}
+
+const p: Person = {
+  name: "Di",
+  age: 45,
+}
+```
+</details>
