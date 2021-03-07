@@ -11,4 +11,6 @@ console.log(listOfEvenNumbers)
 
 // Rewritten with Lambda-Expression
 
-console.log(listOfNumbers.filter( i => i % 2 === 0))
+let evenNumbers = listOfNumbers.filter( i => i % 2 === 0)
+
+console.log(evenNumbers)

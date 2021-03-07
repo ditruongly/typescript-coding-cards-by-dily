@@ -10,13 +10,16 @@ for (let i of listOfNumbers) {
     listOfEvenNumbers.push(i)
   }
 }
+
+console.log(listOfEvenNumbers)
 ```
 
 <details>
 <summary>Solution</summary>
 
 ```typescript
-const id = "123";
-const url = `https://api.book/${id}`
+let evenNumbers = listOfNumbers.filter( i => i % 2 === 0)
+
+console.log(evenNumbers)
 ```
 </details>
