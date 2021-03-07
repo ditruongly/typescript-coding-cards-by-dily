@@ -1,10 +1,4 @@
-interface Person {
-  name: string;
-  age: number;
-}
-
-const p: Person = {
-  name: "Di",
-  age: 45,
-  sex: "male"
+class Person {
+  constructor(name: string, age: number) {}
+  constructor(name: string) {}
 }

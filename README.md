@@ -1,31 +1,15 @@
-# Interface
+#  Constructor
 ## Where is the mistake?
 
 ```typescript
-interface Person {
-  name: string;
-  age: number;
-}
-
-const p: Person = {
-  name: "Di",
-  age: 45,
-  sex: "male"
+class Person {
+  constructor(name: string, age: number) {}
+  constructor(name: string) {}
 }
 ```
 
 <details>
 <summary>Solution</summary>
 
-```typescript
-interface Person {
-  name: string;
-  age: number;
-}
-
-const p: Person = {
-  name: "Di",
-  age: 45,
-}
-```
+Multiple constructor implementations are not allowed.
 </details>
