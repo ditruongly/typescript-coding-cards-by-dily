@@ -17,15 +17,5 @@ const p: Person = {
 <details>
 <summary>Solution</summary>
 
-```typescript
-interface Person {
-  name: string;
-  age: number;
-}
-
-const p: Person = {
-  name: "Di",
-  age: 45,
-}
-```
+You can't add new properties to an object, when that property is not defined in the interface.
 </details>
